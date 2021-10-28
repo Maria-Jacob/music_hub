@@ -1,0 +1,80 @@
+*{
+	font-family: sora;
+}
+
+
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+
+li a{
+	display: inline;
+	font-size: 20px;
+	margin: 20px;
+	color: black;
+}
+/*nav bar styling*/
+#nave{
+	background-color: #fbb69d;
+	border-style: solid;
+	border-color: black;
+}
+
+/* artist */
+
+.head li{
+	display: inline;
+	padding-top: 10px;
+	font-size: 20px;
+	list-style: none;
+}
+
+.head li a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+
+}
+.head li a:hover{
+	color: brown;
+}
+
+/*footer*/
+
+footer{
+	margin-top: 200px;
+	padding: 50px;
+	background-color: #fbb69d;
+	text-align: center;
+}
+ 
+ /* news images to make it as thumbnail*/
+.imae {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  float: right;
+  float: right;
+}
+
+/* Add a hover effect (blue shadow) */
+.imae:hover {
+  box-shadow: 0 0 2px 1px #fbb69d;
+}
+
+/*browse pop button*/
+
+/* this button refers to all button ie review..etc*/button{
+	background-color: peachpuff;
+}
+
+#bro{
+	text-decoration: none;
+	color: black;
+}
+
+#bro:hover{
+	color: brown;
+}
