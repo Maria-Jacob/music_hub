@@ -1,0 +1,161 @@
+<!--bootstrap file-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="gboot.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>boot</title>
+  </head>
+  <!--here bg color was #D6D6D6-->
+  <body style="background-color: #1b1b1b; color: white;">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+<!--HEADING-->
+<header>
+       <nav>
+          <h1>MUSIC HUB</h1>
+       </nav>
+    </header>
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" id="nave">
+    <a class="navbar-brand" href="file:///C:/Users/Maria%20Jacob/OneDrive/Desktop/Music_Hub/ease.html" style="color: white;">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: white;">TOP SONGS</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+            NEWS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">POP</a></li>
+            <li><a class="dropdown-item" href="#">COUNTRY</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">RAP</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" style="color: white;">ABT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" style="color: white;">PROFILE</a>
+        </li>
+      </ul>
+      <!--search bar-->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search songs" aria-label="Search" style="background-color: peachpuff;">
+        <button class="btn btn-outline-success" type="submit" style="color: black; border-color: black; background-color: peachpuff;">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<button style=" margin: 30px; margin-left: 550px;"><a id='bro' href="#services_offered">BROWSE POP</a></button>
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="padding: 30px; margin-right: 20px;">
+      <img src="car.png" class="d-block w-100" height="400px">
+    </div>
+    <div class="carousel-item" style="padding: 50px; margin-right: 20px;">
+      <img src="untitled_design.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item" style="padding: 50px; margin-right: 20px;">
+      <img src="concert.png" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<hr style="color: white; margin: 10px;">
+<!--services-->
+<!--first artist-->
+<section id="services_offered">
+  <div class="row text-center" style="margin-top: 30px;">
+    <div class="col-sm-3 img-fluid img-responsive"><img src='jp_sax.png' width="200px" height="200px" style="border-radius: 50%"></div>
+    <div class="col-sm-4"><ul class="head">
+         <li style="padding-top: 30px; font-weight: bold;"><a href='https://www.youtube.com/watch?v=1jO2wSpAoxA' target="_blank">IF THE WORLD WAS ENDING</a></li><br>
+         <li><a href='https://people.com/music/julia-michaels-new-music-inspired-by-boyfriend-jp-saxe/' target="_blank">JP Saxe, Julia Michaels</a></li><br>
+         <li><a href="https://musicstax.com/track/if-the-world-was-ending/2kJwzbxV2ppxnQoYw4GLBZ">96 on billboard hot hundred</a></li><br>
+         <li><button><a href='file:///C:/Users/Maria%20Jacob/OneDrive/Desktop/Music_Hub/review.html?rate=eghyw3%5C#'>review</a></button></li>
+         <li><button><a href='link'>cover</a></button></li>
+      </ul></div>
+    <div class="col-sm-5"><p style= 'font-weight:bold; text-decoration: underline;font-size: 20px; float: right; margin-right: 20px;'>POP NEWS</p><!--first news pic--><a href="https://www.rollingstone.com/music/music-news/shawn-mendes-facebook-messenger-concert-watch-online-1244338/"><img style="float: right; margin-left: 190px;" class="imae" src="shawn.jfif" height="80%" width="40%"></a></div> 
+  </div>
+  <hr style="margin-right: 350px;">
+  <!--second artist-->
+  <div class="row text-center" style="margin-top: 30px">
+    <div class="col-sm-3 img-fluid img-responsive"><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2HaAVNo54YIHF4x8M0O1XanSAXqjsvQkzA&usqp=CAU' width="200px" height="200px" style="border-radius: 50%;"></div>
+    <div class="col-sm-4"><ul class="head">
+         <li style="font-weight: bold;"><a href='link' target="_blank">that friend</a></li><br>
+         <li><a href='link' target="_blank">Mad Tsai</a></li><br>
+         <li><a href="https://musicstax.com/track/that-friend/0jI7t8dSBRQU8EOlicWTmL">check it out</a></li><br>
+         <li><button><a href='link'>review</a></button></li>
+         <li><button><a href='link'>cover</a></button></li>
+      </ul>
+  </div>
+  
+  <!--news sec image-->
+    <div class="col-sm-5">
+     
+          <a href="https://www.today.com/parents/taylor-swift-s-ode-fall-lists-scarves-hats-pumpkin-spice-t236487"><img style="float: right;" class="imae" src="taylor.jfif" height="90%" width="40%"></a>
+        </div>
+      
+    </div>
+  </div>
+  <hr style="margin-right: 350px;">
+  <!--artist third-->
+  <div class="row text-center" style="margin-top: 30px">
+    <div class="col-sm-3 img-fluid img-responsive"><img src="happiest.png" height="200px" width="200px" style="border-radius: 50%;" ></img></div>
+    <div class="col-sm-4"><ul class="head">
+         <li style="font-weight: bold;"><a href='https://www.youtube.com/watch?v=i-qT5n_5Mys' target="_blank">Happiest Year</a></li><br>
+         <li><a href='https://en.wikipedia.org/wiki/Jaymes_Young' target="_blank">Jaymes Young</a></li><br>
+         <li><a href="https://musicstax.com/track/happiest-year/5kcvBnt6DPX3AMEsCx1qDh" target="_blank">check it out</a></li><br>
+         <li><button><a href='link'>review</a></button></li>
+         <li><button><a href='link'>cover</a></button></li>
+      </ul>
+  </div>
+  <!--news third image-->
+    <div class="col-sm-5"><a href="#"><img style="float: right;" class="imae" src="statue_pop.jfif" height="80%" width="40%"></a></div> 
+  </div>
+  <hr style="margin-right: 350px;">  
+</section>
+<footer>
+  <p>copyright &copy;info here</p>
+</footer>
+  
+  </body>
+</html>
